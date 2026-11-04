@@ -1,0 +1,10 @@
+numpy>=1.24
+matplotlib>=3.7
+scipy>=1.13
+qiskit==2.1.1
+qiskit-aer==0.17.1
+qiskit-ibm-runtime==0.43.1
+truststore>=0.10
+
+# Optional: required only for the classical reference solver
+# gurobipy>=11
