@@ -79,11 +79,3 @@ Each notebook ends with a standalone saved-results inventory and circuit-metrics
 cell. It reads local files only and does not require training or an IBM login.
 
 
-## Final experiment packages
-
-`results/final_100_items/` and `results/final_150_items/` are the two final saved
-experiments. Older runs and duplicate source folders were moved outside this
-repository to a dated `Copula_QAOA_archive_*` folder; nothing was deleted.
-Each final folder has a manifest with job IDs, exact input and circuit locations,
-cached best-value and AR summaries, and an explicit list of unavailable metrics.
-Use the last notebook cell for instant saved-only plots. Do not run all cells.
